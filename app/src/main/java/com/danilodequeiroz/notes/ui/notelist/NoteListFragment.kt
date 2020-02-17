@@ -150,16 +150,13 @@ class NoteListFragment : Fragment(), NoteClickLisneter {
         adapter = NotesRecyclerViewAdapter(this)
         recyclerViewNotes.adapter = adapter
         recyclerViewNotes.layoutManager = LinearLayoutManager(context)
-        recyclerViewNotes.addItemDecoration(
-            MarginItemDecoration(
-            resources.getDimension(R.dimen.default_padding).toInt())
-        )
         adapter?.populateNotes(notes)
         enableSwipeToDelete()
     }
 
-    private fun removeAllNotes() =
-        DialogInterface.OnClickListener { dialog, which -> adapter?.removeAllItems(); viewModel.deleteAllNotes() }
+    private fun removeAllNotes() = DialogInterface.OnClickListener { _, _ ->
+        adapter?.removeAllItems(); viewModel.deleteAllNotes()
+    }
 
     private fun showEmptyView() {
         if (recyclerViewNotes.visibility == View.VISIBLE && textViewEmpty.visibility == View.GONE) {
