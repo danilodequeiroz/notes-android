@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="notes_login">Login</string>
+    <string name="add_note">Adicionar nota…</string>
+    <string name="update_note">Editar nota…</string>
+    <string name="loading">Aguarde…</string>
+    <string name="technical_error_message">Algo deu errrado</string>
+    <string name="title">Título</string>
+    <string name="description">Descrição</string>
+    <string name="priority">Prioridade</string>
+    <string name="update">Salvar</string>
+    <string name="note_undo_action">Desfazer</string>
+    <string name="note_undo_title">Nota removida.</string>
+    <string name="cd_selected_priority">Prioridade %s selecionada</string>
+    <string name="priority_format">Prioridade: %s</string>
+    <string name="cd_note_add">Adicionar uma nota</string>
+    <string name="cd_note_clean">Remover todas as notas</string>
+    <string name="field_required">Campo obrigatório</string>
+    <string name="ok">OK</string>
+    <string name="all_notes_remove_confirmation">Deseja remover todas as notas?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="empty_notes">Não há notas…</string>
+    <string name="note_updated">Nota atualizada com sucesso.</string>
+    <string name="note_deleted">Nota deletada.</string>
+    <string name="password">Senha</string>
+    <string name="email">E-mail</string>
+    <string name="do_login">Logar</string>
+    <string name="keep_login">Salvar dados</string>
+</resources>

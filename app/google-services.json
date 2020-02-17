@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "143074190246",
+    "firebase_url": "https://awesome-notes-3db38.firebaseio.com",
+    "project_id": "awesome-notes-3db38",
+    "storage_bucket": "awesome-notes-3db38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143074190246:android:b8512173a84b0ff03aa567",
+        "android_client_info": {
+          "package_name": "com.danilodequeiroz.notes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143074190246-vlg5eiuo9s3l3k1roi8v54ihc8qj4q7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danilodequeiroz.notes",
+            "certificate_hash": "31063f219bb0ba48525e203d8f32fd4f6c8f1f2a"
+          }
+        },
+        {
+          "client_id": "143074190246-7dlr6au223hd4qd0i3k098vau9f7fsur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa8J08By6JF1LrpSfKDqzet08BI6Q2-Uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143074190246-7dlr6au223hd4qd0i3k098vau9f7fsur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
